@@ -1,0 +1,23 @@
+*{
+    background-color: lightblue;
+    
+}
+html{
+    font-size: 170%;
+}
+button{
+    font-size: 20px;
+    line-height: 30px;
+    width: 100px;
+    height: 30px;
+}
+input{
+    font-size: 20px;
+    line-height: 20px;
+    width: 180px;
+    height: 20px;
+}
+.container{
+    background-color: white;
+    outline: gray 3px solid;
+}
