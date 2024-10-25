@@ -1,23 +1,75 @@
 *{
-    background-color: lightblue;
-    
+    background-color: white;
 }
 html{
     font-size: 170%;
 }
-button{
-    font-size: 20px;
-    line-height: 30px;
-    width: 100px;
-    height: 30px;
+nav {
+    display: flex;
+    background-color: white;
+    outline: gray 3px solid;
+    padding-inline-start: 0px; 
 }
-input{
+
+main{
+    display: flex;
+    flex-direction: row-reverse;
+}
+main section {
+    padding: 16px;
+    display: flex;
+    width: 80%;
+    gap: 15%;
+}
+
+aside {
+    width: 20%;
+
+}
+
+#inicio {
+    display: flex;
+    align-items: center;
+}
+#inicio input{
     font-size: 20px;
     line-height: 20px;
     width: 180px;
     height: 20px;
 }
+#inicio button{
+    font-size: 30px;
+    line-height: 40px;
+    width: 150px;
+    height: 30px;
+}
+ul{
+    list-style-type: none;
+}
 .container{
     background-color: white;
     outline: gray 3px solid;
+}
+.row{
+    display: flex;
+}
+.numbers{
+    background-color: rgb(246, 181, 255);
+    border: 2px solid black;
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    background-color: rgb(246, 181, 255);
+    border: 2px solid black;
+    width: 35px;
+    height: 35px;
+    margin: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
